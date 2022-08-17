@@ -1,0 +1,231 @@
+Nested if
+
+Their Age
+If the student's native language is English put them in English Classes
+
+//If Student's native language is Spanish
+put them in Spanish Classes
+
+//If student's native language is anything other than English or spanish then put in English classes
+
+
+int age = someNumber
+String nativeLanguage = "SomeLanguage"
+// 7-9 -> Elementary school
+
+//outer if
+if(age > && age<=9 ) {
+System.out.println("Go to Elementary School");
+  if(nativeLanguage == "English") {
+  System.out.println("Take English Classes");
+  }
+    else if(nativeLanguage.equals("Spanish")) {
+                   System.out.println("Take Spanish Classes");
+
+}
+
+
+//10-13 -> Middle School
+
+
+
+
+
+Hw
+
+Martial Status and Tax Brackets
+//calculate my tax
+ // salary
+ // we need tell the user how much tax they need pay.
+ // if salary is less than or equal to 60,000 --> tax is 10%
+ // if salary is more than 60,002 and less than or equal to 100k -->20%
+ // if salary is more than 100,001 you pay -> 25%
+ //ex:100,000
+ //printout you need to pay 25000
+
+
+
+
+ //second
+
+ //calculate my tax
+ //get marital status
+ //salary
+
+ //we need tell the user how much tax they need pay.
+
+ // if married and salary is less than or equal to  6000 --> tax is 5%
+ //if married and salary is more than 60,001 and less than or equal to 100,000 --> 15%
+ //if married and salary is more than 100,001 you pay --> 20%
+
+
+
+
+
+// ex: 100,000
+
+
+boolean isMarried = true/false;
+double salary = 10000.00;
+
+if(isMarried && salary <= 60_000) {
+//5%
+}
+else if(isMarried && salary <= 100_000) {
+//15%
+}
+else if(isMarried && salary >100_000) {
+//25%
+}
+
+else if(!isMarried <= 60_000) {
+                   //5%
+                   }
+   else if(!isMarried && salary <= 100_000) {
+                   //15%
+                   }
+   else if(!isMarried && salary >100_000) {
+                   //25%
+                   }
+
+
+
+if(isMarried) {
+if(salary <=60000) {
+   //5%
+   }
+   else if(salary <=100_000) {
+   //15%
+   }
+
+
+
+  if(isMarried) {
+if(salary <=60000) {
+   //5%
+   }
+   else if(salary <=100_000) {
+   //15%
+   }
+
+   else if(salary> 100_000) {
+   //25%
+   }
+   else {
+
+   }
+   }
+   // not married
+   else {
+if(salary <=60000) {
+   //5%
+   }
+   else if(salary <=100_000) {
+   //15%
+   }
+
+   else if(salary> 100_000) {
+   //25%
+   }
+   else {
+
+   }}
+
+   Homework
+
+// if the vendor brings a product
+and it's green products then set the expiration date for 7 days for all green
+
+except
+
+1.if it's cilantro set the expiration date for 10 days.
+2.for dill please make expiration date for 4 days
+   //Grocery Store
+   // Greens
+
+
+   //Fruits --> fruits should be expired in 30 days by default
+
+   except:
+   //raspberries should be expired in 30 days by default
+   // bananas should be expired in 15 days by default
+   //
+
+
+   //Vegatables
+
+   all veggies should expire in 90 days
+
+   except:
+   Tomatoes in 20 days
+   Pumpkin in 60 days
+
+   String productType = "";
+   String productName = "";
+   int daysToExpire= 0;
+
+
+// What are we doing here
+// we are identifying the product type.
+
+
+
+   if(productType.equals("Greens")) {  //outer open
+    //what you to do if the productType is greens?
+    //set the days to expire to 7
+   // daysToExpire= 7;
+  //}else {
+  //   } }
+//System.out.println(daysToExpire);
+   //daysToExpire = 7;
+   if(productName.equals("Cilantro")) {  // outer if statement open
+           daysToExpire = 10;
+     } // inner close 155
+     else if(productName.equals("Dill")) {  //inner open
+          daysToExpire = 4;
+      } //inner close 158
+        else {
+      daysToExpire = 7;
+       }
+
+  } //outer close 159
+  else if(productType.equals("Fruits")) { //outer
+  if(productName.equals("Banana")) {
+  // input
+  String import
+  }
+    daysToExpire = 15;
+    }
+    else if(productName.equals("Raspberries") {
+      daysToExpire = 7;
+    }
+    else {
+  daysToExpire = 30;
+     }
+  }
+
+System.out.println(daysToExpire);
+
+outter if statement --> is an if statement that has a another if statement in its body.
+
+inner if statement --> is an if statement that doesn't have any if statement.
+
+
+
+multi level nested ifs.
+
+if the productType is Fruit
+and the productName is Banana
+then ask the user to input where is the banana imported from?
+get the input from user.
+
+String import;
+
+if banana is imported from "Peru" set daysToExpire = 11;
+if banana is imported from "Brazil" set daysToExpire = 14;
+
+   //  else if()
+ //  } //outer close 153
+
+//System.out.println(daysToExpire);
+
